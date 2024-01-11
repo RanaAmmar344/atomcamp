@@ -295,6 +295,7 @@ align-items: center;
 
 
 @media (max-width: 768px) {
+  
 
 
     .home-col1{
@@ -314,7 +315,7 @@ align-items: center;
   .sponser-col-1{
 
    position: absolute;
-   top: 699px;
+   top: 733px;
   right: 2px;
   
     
@@ -326,7 +327,7 @@ align-items: center;
  
   width: 130px;
  position: absolute;
- top: 888px;
+ top: 939px;
   padding-top: 16px;
  
   }
@@ -371,7 +372,7 @@ align-items: center;
 
  .workforce-col-1{
    position: absolute;
-top: 1160px;
+top: 1199px;
 left: 12px;
 
 
@@ -379,7 +380,7 @@ left: 12px;
  }
  .workforce-col-2{
 
-    margin-top: 166px;
+    margin-top: 200px;
 
 
  }
@@ -540,13 +541,20 @@ text-align: start;
             font-size: small;
 
         }
-        .card{
+        .card-2{
             width: 90px;
+            color: white;
 
         }
        
         .border{
             
             margin-top: 12px;
+        }
+        .delivering{
+
+            position: absolute;
+
+
         }
     }

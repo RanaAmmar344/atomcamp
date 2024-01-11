@@ -64,7 +64,7 @@ const Home = () => {
 
         <div className="row mx-5 p-5   ">
           <div className="col-md-5 sponser-col-1 mt-5">
-            <h1 className='fw-bold text-secondary-emphasis' >Delivering <span className='bg-yellow'>trainings</span>  for tech, government, startups.</h1>
+            <h1 className='fw-bold text-secondary-emphasis  ' >Delivering <span className='bg-yellow'>trainings</span>  for tech, government, startups.</h1>
             <p className=' fs-4 mt-4'>Helping them push towards a data-driven future.</p>
           </div>
           <div className="col-md-6 mt-5  sponser-col-2 pt-2 mx-3">
