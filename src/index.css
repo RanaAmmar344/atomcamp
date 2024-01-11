@@ -313,6 +313,8 @@ align-items: center;
        
     }
     .home-res{
+        position: relative;
+        right: 40px;
 
 
     }
@@ -321,6 +323,7 @@ align-items: center;
    position: absolute;
    top: 744px;
   right: 2px;
+  font-size: small;
   
     
   }
@@ -340,9 +343,9 @@ align-items: center;
   display: flex;
   justify-content: space-around;
  
-  width: 500px;
+  width: 600px;
  position: absolute;
- top: 6400px;
+ top: 6200px;
   padding-top: 16px;
   right: 7px;
   left: 5px;
@@ -545,11 +548,7 @@ text-align: start;
             font-size: small;
 
         }
-        .card-2{
-            width: 90px;
-            color: white;
-
-        }
+        
        
         .border{
             
@@ -560,5 +559,9 @@ text-align: start;
             position: absolute;
 
 
+        }
+        .founder-div{
+position: relative;
+            right: 63px;
         }
     }

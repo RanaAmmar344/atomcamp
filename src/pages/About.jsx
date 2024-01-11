@@ -51,24 +51,24 @@ By offering immersive <span className='bg-yellow' >learning experiences, </span>
   <div className="carousel-inner">
     <div className="carousel-item active">
     <div className='d-flex  mt-5' > 
-      <div className="card-2 text-center " >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2023/12/Nida-Mahmood-scaled-1.jpg" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2 text-center " >
+  <img height={200}  src="https://www.atomcamp.com/wp-content/uploads/2023/12/Nida-Mahmood-scaled-1.jpg" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Nida Mahmood </h5>
     <p className="card-text">Ai Engineer</p>
     
   </div>
 </div>
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2024/01/Safa-Baig-1.jpeg" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2 text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2024/01/Safa-Baig-1.jpeg" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Safa Baig</h5>
     <p className="card-text">wen Dev</p>
     
   </div>
 </div>
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2024/01/Naveed-Iftikhar.jpeg" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2   text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2024/01/Naveed-Iftikhar.jpeg" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Naveed Iftikhar</h5>
     <p className="card-text">Co-founder</p>
@@ -78,23 +78,23 @@ By offering immersive <span className='bg-yellow' >learning experiences, </span>
     </div>
     <div className="carousel-item">
       <div className='d-flex  mt-5' > 
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2023/12/Rida-mughess-1.jpg.png" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2  text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2023/12/Rida-mughess-1.jpg.png" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Rida Mughess</h5>
     <p className="card-text">Full Stack</p>
 
   </div>
 </div>
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2024/01/Ayman-rehan-atomcamp.jpeg" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2 text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2024/01/Ayman-rehan-atomcamp.jpeg" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Ayman Rehan</h5>
     <p className="card-text">Account officer</p>
   </div>
 </div>
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2023/12/zumer-zia-1.png" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2 text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2023/12/zumer-zia-1.png" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Zumeer Zia</h5>
     <p className="card-text">CEO</p>
@@ -105,23 +105,23 @@ By offering immersive <span className='bg-yellow' >learning experiences, </span>
     </div>
     <div className="carousel-item">
     <div className='d-flex  mt-5' > 
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2024/01/Maria-Qitbiya.jpeg" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2 text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2024/01/Maria-Qitbiya.jpeg" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Maria Qitbiya</h5>
     <p className="card-text">Business Developer</p>
   </div>
 </div>
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2023/12/Usman-Rashid-1.png" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2 text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2023/12/Usman-Rashid-1.png" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Usman Rashid</h5>
     <p className="card-text">Software Engineer</p>
 
   </div>
 </div>
-      <div className="card-2 text-center" >
-  <img src="https://www.atomcamp.com/wp-content/uploads/2023/09/Sidra-cheema-Trainer.png" className="card-img-top" alt="..."/>
+      <div className="card-2 text-white border border-1 rounded mx-2 text-center" >
+  <img height={200} src="https://www.atomcamp.com/wp-content/uploads/2023/09/Sidra-cheema-Trainer.png" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Sidra Cheema</h5>
     <p className="card-text">Ml Engineer</p>
