@@ -34,7 +34,7 @@ const Home = () => {
       <div className="home">
         {/* <img src="https://www.atomcamp.com/wp-content/uploads/2023/12/main-banner.png" className='home-bg' alt="" /> */}
       
-      <div className="row  mx-5">
+      <div className="row home-res  mx-5">
         <div className="col-md-8 home-col1 ">
           <p className=' home-heading'>Data Science & AI Upskilling <br/>  for  </p> <span className='auto-type  ' > <AutoTypeText />  </span> 
           <a type="button" className="home-btn mx-5 fw-bold ps-3 mt-4">Start Learing <FaArrowDown className='mx-2 fw-bold' /></a>

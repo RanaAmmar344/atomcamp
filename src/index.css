@@ -301,21 +301,25 @@ align-items: center;
     .home-col1{
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
    padding-bottom: 222px;
-   overflow: visible;
+   /* overflow: visible; */
     }
 
     .home{
         overflow: scroll;
        
     }
+    .home-res{
+
+
+    }
   .sponser-col-1{
 
    position: absolute;
-   top: 733px;
+   top: 744px;
   right: 2px;
   
     
