@@ -1,0 +1,552 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #F0F0F0;
+    overflow-x: hidden; /* Hide vertical scrollbar */
+    padding: 0%;
+    margin: 0%;
+   
+
+}
+
+/* /////////////////////Home/////////////////////// */
+
+.home{
+    color: white;
+    background-image: url('https://www.atomcamp.com/wp-content/uploads/2023/12/main-banner.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins',sans-serif;
+    background-color: rgba(0,0, 0, 0.55);
+    background-attachment: fixed;
+
+}
+
+
+.home-col1{
+
+ 
+  
+  margin-top: 200px;
+
+   
+    
+}
+
+.home-btn{
+
+text-decoration: none;
+
+color: white;
+border: 2px solid #99D930;
+border-radius: 33px;
+height: 60px;
+width: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.home-btn:hover {
+    background-color: #99D930;
+ transition-duration: 0.6s;
+    
+}
+
+.home-heading{
+
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 55px;
+    
+}
+
+.home-side-text{
+
+    /* align-items: center;
+    /* margin-top: 60px;  */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+margin-right: 222px;
+line-height: 15px;
+
+width: 300px;
+   
+}
+
+.text-side-col{
+
+    font-size: 50px;
+    font-weight: bold;
+}
+.p-color{
+    color: #99D930;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ .sponser{
+
+
+     background-color: #F0F0F0;
+     height: 520px;
+     color: black;
+ }
+ .bg-yellow{
+    color: #FC8C03;
+ }
+ .auto-type{
+
+
+position: absolute;
+top: 355px;
+margin-left: 130px;
+font-size: 48px;
+font-weight: bold;
+color: #99D930;
+
+ }
+
+ .workforce{
+
+    background-color: #002333;
+    height: 410px;
+ }
+ .workforce2{
+
+    background-color: #002333;
+    height: 410px;
+ }
+
+ .workforce-col-1{
+    color: white;
+  margin-top: 110px;
+  line-height: 45px;
+
+
+ 
+ }
+
+ .w-color{
+    color: #99F930;
+ }
+
+ .workforce-col-2{
+   
+    height: 100px;
+  
+
+ 
+ }
+
+
+ .card{
+    width: 280px;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    margin-left: 12px;
+    border: 1px solid #8a777788;
+ }
+.card-free{
+    background-color: #002333;
+    color: white;
+    margin-top: 33px;
+  
+ 
+}
+.card-free-icon{
+   
+    padding-right:2px ;
+
+
+}
+
+.members{
+/* background-color: #99F930; */
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 66px;
+padding-top: 22px;
+
+} 
+.members-2{
+
+
+margin-top: 12px;
+margin-left: 12px;
+
+display: grid;
+grid-template-columns: repeat(4, 1fr); /* 4 columns */
+grid-template-rows: repeat(3, 1fr); /* 3 rows */
+gap: 20px; 
+
+
+
+
+
+} 
+.album{
+   color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+} 
+.team-img{
+
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+}
+
+.mastering-logo{
+
+    border: 3px solid #E0E0E0;
+    width: 200px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 9px;
+
+}
+
+.feedback{
+    background-color: #242424;
+    height: 830px;
+}
+.feadback-cards{
+    background-color: #FFFFFF;
+    border-top: 5px solid #99D930;
+   height: 600px;
+   width: 340px;
+   border-radius: 12px;
+   
+   
+
+}
+.feadback-card-img{
+    border-radius: 50%;
+    height: 80px;
+    width: 90px;
+   
+}
+.feedback-card-header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 12px;
+   
+}
+.fb-position{
+    color: #4B4B4B;
+    font-size: 14px;
+}
+.fb-career{
+
+    color: #EB9DEE;
+}
+.feadback-text {
+
+    margin-top: 14px;
+    margin-left: 8px;
+}
+.joinus{
+
+   background-color: #002333;
+}
+.joinus-btn{
+ margin-top: 145px;
+text-decoration: none;
+color: white;
+border: 2px solid #99D930;
+border-radius: 33px;
+height: 60px;
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.footer-icon{
+    color: white;
+}
+
+.div{
+    height: 100px;
+    background-color: white;
+}
+
+
+
+ 
+/* /////// responsive media query for HOME ///////////// */
+/* ///////////////////////////////////////////////////////// */
+
+
+@media (max-width: 768px) {
+
+
+    .home-col1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding-bottom: 222px;
+   overflow: visible;
+    }
+
+    .home{
+        overflow: scroll;
+       
+    }
+  .sponser-col-1{
+
+   position: absolute;
+   top: 699px;
+  right: 2px;
+  
+    
+  }
+  .sponser-col-2{
+
+  display: flex;
+  justify-content: space-around;
+ 
+  width: 130px;
+ position: absolute;
+ top: 888px;
+  padding-top: 16px;
+ 
+  }
+  .sponser-col-3{
+
+  display: flex;
+  justify-content: space-around;
+ 
+  width: 500px;
+ position: absolute;
+ top: 6400px;
+  padding-top: 16px;
+  right: 7px;
+  left: 5px;
+ 
+  }
+
+  .sponser-logo{
+
+    width: 70px;
+    
+   
+  }
+  .sponser-logo1{
+    height: 60px;
+  }
+  
+  .home-heading{
+   line-height: 39px;
+  }
+  
+.auto-type{
+    visibility: hidden;
+}
+
+.workforce{
+
+    
+    height: 610px;
+   
+ }
+
+ .workforce-col-1{
+   position: absolute;
+top: 1160px;
+left: 12px;
+
+
+ 
+ }
+ .workforce-col-2{
+
+    margin-top: 166px;
+
+
+ }
+ .card{
+    margin-top: 12px;
+ }
+
+ 
+ .team-img{
+
+    width: 88px;
+    margin-top: 12px;
+ }
+
+ .members{
+    display: flex;
+    flex-direction: column;
+   
+ 
+ }
+
+
+ .workforce2{
+    height: 1100px;
+ }
+
+ .logo-grid{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+   
+
+
+}
+.mastering-logo{
+
+   margin-top: 12px;
+   margin-left: 55px;
+}
+.all-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.feedback{
+    background-color: #242424;
+    height: 1700px;
+}
+.feadback-cards{
+    
+   
+   height: 300px;
+   width: 240px;
+   border-radius: 12px;
+  padding-bottom: 12px;
+  margin-top: 12px;
+   
+   
+
+}
+.feed-p{
+    
+ font-size: 9px;
+ 
+   
+}
+
+.joinus-p{
+
+    font-size: 11px;
+position: absolute;
+text-align: start;
+
+  
+}
+.joinus-btn{
+
+   margin-left: 100px;
+   margin-top: 12px;
+}
+
+
+  
+  
+   }
+  
+   
+    
+  /* /////////////////////////AboutuS/////////////////////////////////// */
+  /* ////////////////////////////////////////////////////////////////////////// */
+
+
+
+  .comon-heading{
+    font-weight: 900;
+
+  }
+ .founder{
+
+    height: 200px;
+ }
+ .meet-team{
+
+   background-color: #002333;
+ }
+
+
+
+    /* ------------------------------- */
+
+    .gateway{
+        font-weight: 900;
+        color: white;
+   
+
+    }
+
+    .workforce3{
+        background-color: #002333;
+    }
+
+    @media (max-width: 768px) {
+
+
+
+        .education{
+
+            position: absolute;
+            top: 5500px;
+            font-size: large;
+            margin-left: 44px;
+        }
+        .remarkable{
+
+          padding-right: 44px;
+            
+            
+        }
+        .members-2 {
+       display: flex;
+       flex-direction:column;
+       flex-wrap: wrap;
+
+        }
+        .meet-heading {
+
+           position: absolute;
+          right: 43px;
+          padding-left: 12px;
+        }
+        .card-body{
+            font-size: small;
+        }
+        .card-title{
+            font-size: small;
+
+        }
+        .card{
+            width: 90px;
+
+        }
+       
+        .border{
+            
+            margin-top: 12px;
+        }
+    }
