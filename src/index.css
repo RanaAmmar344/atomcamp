@@ -314,7 +314,7 @@ align-items: center;
     }
     .home-res{
         position: relative;
-        right: 40px;
+        right: 34px;
 
 
     }
@@ -322,7 +322,8 @@ align-items: center;
 
    position: absolute;
    top: 744px;
-  right: 2px;
+  right: 5px;
+  left: 22px;
   font-size: small;
   
     
@@ -345,10 +346,10 @@ align-items: center;
  
   width: 600px;
  position: absolute;
- top: 6200px;
+ top: 6400px;
   padding-top: 16px;
   right: 7px;
-  left: 5px;
+  left: 44px;
  
   }
 
@@ -562,6 +563,6 @@ text-align: start;
         }
         .founder-div{
 position: relative;
-            right: 63px;
+            right: 60px;
         }
     }
