@@ -1,10 +1,10 @@
 body{
     font-family: 'Poppins',sans-serif;
-    background-color: #F0F0F0;
+    background-color: #FFFFFF;
     overflow-x: hidden; /* Hide vertical scrollbar */
     padding: 0%;
     margin: 0%;
-   
+   color: black;
 
 }
 
@@ -154,6 +154,7 @@ color: #99D930;
     background-color: #F0F0F0;
     margin-left: 12px;
     border: 1px solid #8a777788;
+    cursor: pointer;
  }
 .card-free{
     background-color: #002333;
@@ -565,4 +566,64 @@ text-align: start;
 position: relative;
             right: 60px;
         }
+    }
+
+    /* -----------------------Courses--------------------------------- */
+
+
+    .open{
+
+        background-color: #002333;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .open-courses{
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+
+    }
+
+
+
+    /* /////////////////////////////////Financial Modeling//////////////////////////////////// */
+
+
+    .Financial-Modeling-header{
+        background-color: #002333;
+        height: 220px;
+        color: white;
+
+    }
+    .enrollbtn{
+        background-color: #002333;
+        width: 290px;
+        color: white;
+        padding: 10px;}
+      
+    .enrollbtn2{
+        background-color: #002333;
+        width: 190px;
+        color: white;
+        padding: 10px;
+        border-radius: 9px;
+      
+    }
+
+    .enrollbtn:hover{
+
+        color: #99D930;
+    }
+    .des-text{
+        margin-bottom: 66px;
+    }
+    .trainer{
+
+        border-radius: 50%;
+        height: 150px;
+    }
+    .custom-footer{
+        background-color: #002333;
     }

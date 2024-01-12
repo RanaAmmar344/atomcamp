@@ -7,8 +7,8 @@ import {BiLogoGmail} from 'react-icons/bi';
 const Footer = () => {
   return (
     <>
-    <footer className="py-5 custom-footer px-4  mt-5 text-white mx-5">
-    <div className="row  ">
+    <footer className="py-5 px-4   custom-footer mt-5 text-white ">
+    <div className="row   ">
 
     <div className="col-md-4 offset-md-1  mx-3">
       <img src='https://www.atomcamp.com/wp-content/uploads/2022/08/atomcamp-logo.png' alt="Bootstrap "  className="change-color mb-2"  width="200" height="40"/>

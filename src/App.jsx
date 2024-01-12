@@ -8,6 +8,7 @@ import Publication from './pages/Publication'
 import Signup from './pages/Signup'
 import Home from './pages/Home'
 import Footer from '../components/Footer'
+import Financialmodeling from './pages/Financialmodeling'
 const App = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/events" element={ <Events/> } />
         <Route path="/publications" element={ <Publication/> } />
         <Route path="/signup" element={ <Signup/> } />
+        <Route path="/financial-modeling" element={ <Financialmodeling/> } />
       </Routes>
       
     
