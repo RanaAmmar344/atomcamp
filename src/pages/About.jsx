@@ -6,9 +6,9 @@ const About = () => {
   return (
     <>
     <div className="founder-div row m-5 p-5">
-      <div className="col-md-6 mt-5">
+      <div className="col-md-6 mt-5 founder-heading ">
         <h1 className=' comon-heading'>What is <span className='w-color'>atomcamp</span>? </h1>
-        <p className='fw-normal fs-5' >We are a young ed-tech platform focused on  <span className='bg-yellow'>  Data Science and AI.  </span>We commenced operations in 2021. Since then, we have experienced a continuous upward trajectory, both within the ed-tech ecosystem and within our own team.<br/>We are a young ed-tech platform focused on Data Science and AI. We commenced operations in 2021. Since then, we have experienced a continuous upward trajectory, both within the ed-tech ecosystem and within our own team. 
+        <p className='fw-normal founder-p fs-5' >We are a young ed-tech platform focused on  <span className='bg-yellow'>  Data Science and AI.  </span>We commenced operations in 2021. Since then, we have experienced a continuous upward trajectory, both within the ed-tech ecosystem and within our own team.<br/>We are a young ed-tech platform focused on Data Science and AI. We commenced operations in 2021. Since then, we have experienced a continuous upward trajectory, both within the ed-tech ecosystem and within our own team. 
 
 Two years down the lane, we are proud to have a team of 35 employees, with the distinction of <span className='bg-yellow' > 75%  </span>of them being women. This remarkable achievement reflects the efforts of our founders, Dr. Naveed Iftikhar and Nida Mehmood, who have carefully curated this team with dedication.<br/> Our <span className='bg-yellow'>mission,</span>  focused on providing accessible and all-inclusive education in the fields of Data Science and AI, has witnessed exponential growth with each successive cohort of bootcamps. 
 
@@ -152,14 +152,14 @@ By offering immersive <span className='bg-yellow' >learning experiences, </span>
         <h1 className='gateway m-5 p-5' >A gateway to unlocking <span className="bg-yellow" > opportunities </span>  with <span className='w-color' > Artificial Intelligence</span>  & <span className='w-color' > Data Science</span>.</h1>
         
         <div className="row pb-5 mb-5">
-          <div className="col-md-6">
-            <p className='text-white fw-normal fs-5 p-5 m-5 lh-2 ' >By providing accessible education in data science and AI, we aspire to cultivate a community of lifelong learners who not only embrace the digital age but also shape its trajectory.
+          <div className="col-md-6 ">
+            <p className='text-white gateway-p  fw-normal fs-5 p-5 m-5 lh-2 ' >By providing accessible education in data science and AI, we aspire to cultivate a community of lifelong learners who not only embrace the digital age but also shape its trajectory.
             <br/>
 
 Through immersive learning experiences, real-world projects, and personalized mentorship, atomcamp is building a global community in data-driven excellence.</p>
           </div>
-          <div className="col-md-6 mb-5">
-            <img src="https://www.atomcamp.com/wp-content/uploads/elementor/thumbs/NIC-Fasialabad-event-atomcamp-4-qbo8lz4ser1d28g7bkviuuec6nfx8c3tf6m06sst5g.jpg" alt="" />
+          <div className="col-md-6 mb-5 ">
+            <img className='gateway-img' src="https://www.atomcamp.com/wp-content/uploads/elementor/thumbs/NIC-Fasialabad-event-atomcamp-4-qbo8lz4ser1d28g7bkviuuec6nfx8c3tf6m06sst5g.jpg" alt="" />
           </div>
         </div>
         
@@ -169,8 +169,8 @@ Through immersive learning experiences, real-world projects, and personalized me
 
 <div className="sponser">
 
-        <div className="row mx-5 p-5   ">
-          <div className="col-md-5 sponser-col-1 mt-5">
+        <div className="row mx-5 p-5  education-partner  ">
+          <div className="col-md-5  mt-5">
             <h1 className='fw-bold text-secondary-emphasis education' >Our <span className='bg-yellow'  > educational </span>  partners.</h1>
            
           </div>

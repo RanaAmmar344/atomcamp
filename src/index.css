@@ -544,6 +544,8 @@ left: 50px;
 
     height: 200px;
  }
+
+ 
  .meet-team{
 
    background-color: #002333;
@@ -571,9 +573,11 @@ left: 50px;
         .education{
 
             position: absolute;
-            top: 5500px;
-            font-size: large;
-            margin-left: 44px;
+            top: 6300px;
+            font-size: 33px;
+        
+           width: 100%;
+
         }
         .remarkable{
 
@@ -604,7 +608,7 @@ left: 50px;
        
         .border{
             
-            margin-top: 12px;
+            margin-top: 12px
         }
         .delivering{
 
@@ -613,9 +617,53 @@ left: 50px;
 
         }
         .founder-div{
-position: relative;
-            right: 60px;
+           position: relative;
+          
+       
+        width: 100%;
+        right: 47px;
+        margin: 0;
+
         }
+
+        .gateway{
+            font-weight: 800;
+          
+       width: 100%;
+       font-size: 30px;
+       position: relative;
+       right: 70px;
+    
+        }
+        .gateway-p{
+
+       
+        width: 100%;
+        position: relative;
+        right: 33px;
+        bottom: 66px;
+
+        }
+        .gateway-img{
+           width: 350px;
+           
+          position: relative;
+          left: 22px;
+          
+           
+        }
+        .education-partner{
+
+            
+           position: relative;
+           bottom: 6200px;
+         right: 44px;
+      
+
+
+        }
+ 
+       
     }
 
     /* -----------------------Courses--------------------------------- */
