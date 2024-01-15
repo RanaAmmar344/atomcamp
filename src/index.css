@@ -345,7 +345,7 @@ align-items: center;
   .sponser-col-1{
 
    position: absolute;
-   top: 944px;
+   top: 1000px;
   
   left: 7px;
   font-size: small;
@@ -359,7 +359,7 @@ align-items: center;
  
   width: 130px;
  position: absolute;
- top: 1100px;
+ top: 1150px;
   padding-top: 16px;
  
   }
@@ -404,7 +404,7 @@ align-items: center;
 
  .workforce-col-1{
    position: absolute;
-top: 1399px;
+top: 1449px;
 left: 12px;
 
 
@@ -458,6 +458,8 @@ left: 12px;
     display: flex;
     flex-direction: column;
     margin-top: 12px;
+    position: relative;
+    right: 12px;
    
 
 
@@ -466,6 +468,7 @@ left: 12px;
 
    margin-top: 12px;
    margin-left: 55px;
+   
 }
 .all-feedback {
     display: flex;
