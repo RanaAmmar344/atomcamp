@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid mx-5 ">
-          <img  src='https://www.atomcamp.com/wp-content/uploads/2022/08/atomcamp-logo.png' height={50} width={170} className="navbar-brand" href="#"></img>
+          <img className='nav-img'  src='https://www.atomcamp.com/wp-content/uploads/2022/08/atomcamp-logo.png' height={50} width={170}  href="#"></img>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

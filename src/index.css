@@ -300,7 +300,11 @@ right: 46px;
 
 @media (max-width: 600px) {
   
+    .nav-img{
 
+        width: 90px;
+        height: 32px;
+    }
 
     .home-col1{
 
@@ -364,7 +368,7 @@ right: 46px;
  
   width: 130px;
  position: absolute;
- top: 1150px;
+ top: 1170px;
   padding-top: 16px;
  
   }
