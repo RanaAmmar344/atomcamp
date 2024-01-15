@@ -68,8 +68,6 @@ align-items: center;
 
 .home-side-text{
 
-    /* align-items: center;
-    /* margin-top: 60px;  */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -295,7 +293,7 @@ align-items: center;
 /* ///////////////////////////////////////////////////////// */
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   
 
 
@@ -306,11 +304,35 @@ align-items: center;
     align-items: center;
     flex-direction: column;
    padding-bottom: 222px;
-   /* overflow: visible; */
+   margin: 0;
+   position: relative;
+   left: 45px;
+   margin-top: 19px;
+ 
+ 
+ 
+
+
+    }
+    .home-heading{
+        font-size: 40px;
+        font-weight:700;
+        margin: 0;
+
+
+    }
+    .home-side-text{
+
+        position: relative;
+        bottom: 240px;
+        left: 28px;
+        
     }
 
     .home{
-        overflow: scroll;
+        overflow: hidden;
+    background-attachment: scroll;
+    height: 900px;
        
     }
     .home-res{
@@ -319,12 +341,13 @@ align-items: center;
 
 
     }
+
   .sponser-col-1{
 
    position: absolute;
-   top: 744px;
-  right: 5px;
-  left: 22px;
+   top: 944px;
+  
+  left: 7px;
   font-size: small;
   
     
@@ -336,7 +359,7 @@ align-items: center;
  
   width: 130px;
  position: absolute;
- top: 939px;
+ top: 1100px;
   padding-top: 16px;
  
   }
@@ -381,12 +404,26 @@ align-items: center;
 
  .workforce-col-1{
    position: absolute;
-top: 1199px;
+top: 1399px;
 left: 12px;
 
 
  
  }
+ .learning-heading{
+    font-size: 40px;
+        font-weight:700;
+        margin: 0;
+
+
+ } 
+
+ .learning{
+    position: relative;
+    right: 12px
+ }
+
+
  .workforce-col-2{
 
     margin-top: 200px;
@@ -462,11 +499,17 @@ left: 12px;
 
 .joinus-p{
 
-    font-size: 11px;
+    font-size: 15px;
 position: absolute;
 text-align: start;
+right: 12px;
+left: 50px;
 
   
+}
+.joinus{
+    position: relative;
+    padding: 12px;
 }
 .joinus-btn{
 
@@ -474,7 +517,11 @@ text-align: start;
    margin-top: 12px;
 }
 
+.joinus-main{
 
+    position:relative;
+    right: 50px;
+}
   
   
    }
@@ -514,7 +561,7 @@ text-align: start;
         background-color: #002333;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
 
 
 

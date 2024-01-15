@@ -167,7 +167,7 @@ const Home = () => {
       </div>
 
       <div className="learning m-5 p-5">
-        <h1 className='fw-bold ' >Learning <span className='bg-yellow' > begins </span>here<span className='bg-yellow'>.</span></h1>
+        <h1 className='fw-bold learning-heading ' >Learning <span className='bg-yellow' > begins </span>here<span className='bg-yellow'>.</span></h1>
         <p className='fw-bold fs-5'>Scale up and stay ahead!</p>
 
         <div className="row">
@@ -474,9 +474,9 @@ const Home = () => {
 
       <div className="joinus">
 
-        <div className="row d-flex  ">
+        <div className="row d-flex   ">
           <div className="col-md-6 m-5 p-5 joinus-main ">
-            <h1 className="w-color fw-bold">Ditch the doubt,</h1>
+            <h1 className="w-color  fw-bold">Ditch the doubt,</h1>
             <h1 className="text-white">join atomcamp.</h1>
             <p className="fw-bold  text-white"> <span className=" joinus-p"> atom's community is an ecosystem where learners come together to share knowledge and grow collectively in Data Science and Artificial Intelligence. </span> </p>
           </div>

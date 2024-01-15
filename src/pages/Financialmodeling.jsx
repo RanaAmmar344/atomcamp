@@ -185,13 +185,13 @@ This course covers more than just traditional financial analysis. Above all, it 
       <img width={150 } src="https://www.atomcamp.com/wp-content/uploads/2022/08/atomcamp-logo.png" alt="" />
    <h3 className='mt-3'>Master Financial Modeling</h3>
    <div className='mx-5 ' > 
-   <form action=" ">
+   <form action="https://formspree.io/f/xbjvqbzw" method="POST" >
    <div className="row mt-5">
     <div className="col-md-6">
       
       <div class="form-group">
     
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name"/>
+    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name"/>
 
   </div>
     </div>
@@ -199,14 +199,14 @@ This course covers more than just traditional financial analysis. Above all, it 
       
       <div class="form-group">
     
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last Name"/>
+    <input  class="form-control" placeholder="Enter Last Name"/>
     
   </div>
     </div>
    </div>
   <div className="row">
     <div className="col-md-12">
-    <input type="email" class="form-control mt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
+    <input type="email" name="email" class="form-control mt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
     </div>
   </div>
   <div className="row">
@@ -221,10 +221,10 @@ This course covers more than just traditional financial analysis. Above all, it 
   </div>
   <div className="row">
     <div className="col-md-12">
-    <input type="Phone" class="form-control mt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Organization *"/>
+    <input type="message" name="message" class="form-control mt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Organization *"/>
     </div>
   </div>
-  <button className='enrollbtn2  fw-bold mt-5'>Pay Now</button>
+  <button type='submit' className='enrollbtn2  fw-bold mt-5'>Pay Now</button>
    </form>
    </div>
     </div>
