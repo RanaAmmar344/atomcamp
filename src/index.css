@@ -285,6 +285,11 @@ align-items: center;
     height: 100px;
     background-color: white;
 }
+.feadback-header{
+    width: 100%;
+position: relative;
+right: 46px;
+}
 
 
 
@@ -644,14 +649,7 @@ left: 50px;
         bottom: 66px;
 
         }
-        .gateway-img{
-           width: 350px;
-           
-          position: relative;
-          left: 22px;
-          
-           
-        }
+     
         .education-partner{
 
             

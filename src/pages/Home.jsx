@@ -406,9 +406,12 @@ const Home = () => {
       {/* ------------------------------------------- */}
 
       <div className="feedback mt-5  "> 
-        <div className="row m-5 p-5 lh-1 ">
-<h1 className="w-color fw-bold fs-1 ">Words are cool,</h1>
+        <div className="row feadback-header m-5 p-5 lh-1 ">
+          <div className="">
+          <h1 className="w-color fw-bold fs-1 ">Words are cool,</h1>
 <p className=" fw-bold fs-1 text-white" >but have you met our incredible results?</p>
+          </div>
+
 
 <div className="col-md-12 mt-5 all-feedback  d-flex">
   <div className="feadback-cards px-3  mx-2">
