@@ -24,8 +24,8 @@ const Financialmodeling = () => {
     </div>
     </div>
 
-    <div className="row m-5 p-5">
-      <div className="col-md-8 border border-2 rounded p-3  ">
+    <div className="row m-5 financial-all-p p-5">
+      <div className="col-md-8 border  border-2 rounded p-3  ">
         <h3 className='fw-bold' >What you'll learn</h3>
         <p  className='d-flex'>
          <span><TiTick className='fs-4 ' />  </span>  Understand the basics of financial modeling in business and investment, along with the role of Excel as a powerful tool in financial analysis. </p> 

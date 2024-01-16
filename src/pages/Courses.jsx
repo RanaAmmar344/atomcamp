@@ -12,56 +12,64 @@ const Courses = () => {
 
     <div className="courses-card m-5 p-5">
     <div className="row">
-      <div className="col-md-12 d-flex"> 
-        <div className="card" >
-  <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2024/01/UPSKILL-Program-Updated.jpeg"  alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title fw-bold text-center ">UpSkill Khyber Pakhtunkhwa Program</h5>
-    <div className="row">
-      <div className="col-md-8 lh-sm fw-normal fs-6">
-        <p>. 15 January </p>
-        <p>. 4 months </p>
-        <p>. In-Person & Live  </p>
-      </div>
-      <div className="col-md-4 card-free-icon ">
-         <p className='card-free fw-bold  p-2 text-center' >Free</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div className="card" >
-  <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2023/11/05918a56-ccfb-49de-8bb9-a43e410c2ced-1.jpg"  alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title fw-bold text-center ">UpSkill Khyber Pakhtunkhwa Program</h5>
-    <div className="row">
-      <div className="col-md-8 lh-sm fw-normal fs-6">
-        <p>. 15 January </p>
-        <p>. 4 months </p>
-        <p>. In-Person & Live  </p>
-      </div>
-      <div className="col-md-4 card-free-icon ">
-         <p className='card-free fw-bold  p-2 text-center' >Free</p>
-      </div>
-    </div>
-  </div>
-</div>
-        <div className="card" >
-  <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2024/01/UPSKILL-Program-Updated.jpeg"  alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title fw-bold text-center ">UpSkill Khyber Pakhtunkhwa Program</h5>
-    <div className="row">
-      <div className="col-md-8 lh-sm fw-normal fs-6">
-        <p>. 15 January </p>
-        <p>. 4 months </p>
-        <p>. In-Person & Live  </p>
-      </div>
-      <div className="col-md-4 card-free-icon ">
-         <p className='card-free fw-bold  p-2 text-center' >Free</p>
-      </div>
-    </div>
-  </div>
-</div>
+      <div className="col-md-12 d-flex courses-card-flex "> 
+   
 
+
+ <Link to="/financial-modeling"  style={{ textDecoration: "none" }}  >  
+        <div className="card" >
+  <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2024/01/UPSKILL-Program-Updated.jpeg"  alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title fw-bold text-center ">Upskill Khyber Pakhtunkhwa Program</h5>
+    <div className="row">
+      <div className="col-md-8 lh-sm fw-normal fs-6">
+        <p>. 15 January </p>
+        <p>. 4 months </p>
+        <p>. In-Person & Live  </p>
+      </div>
+      <div className="col-md-4 card-free-icon ">
+         <p className='card-free fw-bold  p-2 text-center' >Free</p>
+      </div>
+    </div>
+  </div>
+</div>
+</Link>
+ <Link to="/financial-modeling"  style={{ textDecoration: "none" }}  >  
+        <div className="card" >
+  <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2023/09/data-engineering-bootcampwebsite.jpg-2.png"  alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title fw-bold text-center ">Data Science <br /> Bootcamp</h5>
+    <div className="row">
+      <div className="col-md-8 lh-sm fw-normal fs-6">
+        <p>. 15 January </p>
+        <p>. 4 months </p>
+        <p>. In-Person & Live  </p>
+      </div>
+      <div className="col-md-4 card-free-icon ">
+         <p className='card-free fw-bold  p-2 text-center' >Free</p>
+      </div>
+    </div>
+  </div>
+</div>
+</Link>
+ <Link to="/financial-modeling"  style={{ textDecoration: "none" }}  >  
+        <div className="card" >
+  <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2024/01/DS6-Poster.png"  alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title fw-bold text-center ">Data Science <br /> Modeling</h5>
+    <div className="row">
+      <div className="col-md-8 lh-sm fw-normal fs-6">
+        <p>. 15 January </p>
+        <p>. 4 months </p>
+        <p>. In-Person & Live  </p>
+      </div>
+      <div className="col-md-4 card-free-icon ">
+         <p className='card-free fw-bold  p-2 text-center' >140$</p>
+      </div>
+    </div>
+  </div>
+</div>
+</Link>
  <Link to="/financial-modeling"  style={{ textDecoration: "none" }}  >  
         <div className="card" >
   <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2023/12/safas-course-posters.png"  alt="..."/>
@@ -161,11 +169,11 @@ const Courses = () => {
     </div>
     
     <div className="meet-team ">
-      <div className="row m-5 p-5">
+      <div className="row m-5 p-5 team-player">
         <div className="col-md-3 m-5 p-5">
           <h1 className='comon-heading  meet-heading fs-2 text-white' >  Previous  <br /> <span className='w-color' >Courses </span> </h1>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 ">
 
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">

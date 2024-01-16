@@ -603,9 +603,23 @@ left: 50px;
         .meet-heading {
 
            position: absolute;
-          right: 43px;
-          padding-left: 12px;
+          right: 140px;
+        
+         
         }
+        .team-player{
+
+       position: relative;
+       right: 44px;
+         
+           width: 100%;
+        }
+        .card-img-top{
+            width: 80px;
+             height: 110px;
+
+        }
+       
         .card-body{
             font-size: small;
         }
@@ -727,3 +741,38 @@ left: 50px;
     .custom-footer{
         background-color: #002333;
     }
+
+
+    @media (max-width: 600px) {
+
+    .courses-card-flex{
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 52px;
+
+    }
+    .open-courses{
+        
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .Financial-Modeling-header-container{
+
+        width: 100%;
+      position: relative;
+      right: 35px;
+    }
+    .financial-all-p{
+        width: 100%;
+      
+    position: relative;
+    right: 46px;
+    }
+    .enrollbtn{
+
+        width: 100%;
+    }
+}
