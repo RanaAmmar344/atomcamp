@@ -776,3 +776,44 @@ left: 50px;
         width: 100%;
     }
 }
+
+
+/* /////////////////////////////Publication/////////////////////////////////////////////////////// */
+/* /////////////////////////////Publication/////////////////////////////////////////////////////// */
+/* /////////////////////////////Publication/////////////////////////////////////////////////////// */
+
+
+.publication-header{
+
+    background-color: #002333;
+height: 200px;
+}
+
+.public-card {
+text-align: center;
+border: 2px solid rgba(121, 109, 109, 0.396) ;
+cursor: pointer;
+}
+.public-card:hover{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.public-card-2{
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 12px;
+}
+.public-card-2:hover{
+    border: 2px solid rgba(121, 109, 109, 0.396) ;
+ 
+    
+}
+.public-card-img{
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+.public-card-img:hover{
+    
+    transform: scale(1.1);
+}

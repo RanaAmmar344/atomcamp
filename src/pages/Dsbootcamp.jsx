@@ -7,18 +7,12 @@ import { TiTick } from "react-icons/ti";
 import { FaLinkedin } from "react-icons/fa";
 import Footer from '../../components/Footer';
 
-
-
-
-
-
-
-const Financialmodeling = () => {
+const Dsbootcamp = () => {
   return (
     <>
     <div className="Financial-Modeling-header ">
       <div className="Financial-Modeling-header-container m-5 p-5"> 
-      <h1 className='fw-bold'>Master Financial Modeling</h1>
+      <h1 className='fw-bold'>Data Science Bootcamp</h1>
 
     <p> <span className=' mx-1'> <IoRocketOutline /> </span>  23rd January, 2024 <span className='mx-1' > <CiClock2 />  </span> Tuesdays & Thursdays, 7 PM - 9 PM  <span className='mx-1' > <RiComputerLine /> </span>  Onlion <span className='mx-1' > <br /> <SlCalender /> </span>  4 weeks </p>
     </div>
@@ -234,4 +228,4 @@ This course covers more than just traditional financial analysis. Above all, it 
   )
 }
 
-export default Financialmodeling
+export default Dsbootcamp

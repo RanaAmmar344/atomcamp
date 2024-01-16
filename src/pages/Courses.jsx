@@ -16,7 +16,7 @@ const Courses = () => {
    
 
 
- <Link to="/financial-modeling"  style={{ textDecoration: "none" }}  >  
+ <Link to="/upskill-kp"  style={{ textDecoration: "none" }}  >  
         <div className="card" >
   <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2024/01/UPSKILL-Program-Updated.jpeg"  alt="..."/>
   <div className="card-body">
@@ -34,7 +34,7 @@ const Courses = () => {
   </div>
 </div>
 </Link>
- <Link to="/financial-modeling"  style={{ textDecoration: "none" }}  >  
+ <Link to="/dsbootcamp"  style={{ textDecoration: "none" }}  >  
         <div className="card" >
   <img className='px-3 rounded-1'  src="https://www.atomcamp.com/wp-content/uploads/2023/09/data-engineering-bootcampwebsite.jpg-2.png"  alt="..."/>
   <div className="card-body">

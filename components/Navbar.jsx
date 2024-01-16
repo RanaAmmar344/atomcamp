@@ -15,7 +15,7 @@ const Navbar = () => {
               <Link className="nav-link mx-3 " aria-current="page" to="/">Home</Link>
               <Link className="nav-link mx-3 " aria-current="page" to="/about">About Us</Link>
               <Link className="nav-link mx-3" to="/courses">Courses</Link>
-              <Link className="nav-link mx-3" to="/events">Events</Link>
+              
               <Link className="nav-link mx-3" to="publications">Publications</Link>
               <Link className="nav-link mx-3" to="/signup">Sign up</Link>
             </div>

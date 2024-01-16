@@ -9,6 +9,8 @@ import Signup from './pages/Signup'
 import Home from './pages/Home'
 import Footer from '../components/Footer'
 import Financialmodeling from './pages/Financialmodeling'
+import Dsbootcamp from './pages/Dsbootcamp'
+import Upskill from './pages/Upskill'
 const App = () => {
   return (
     <>
@@ -21,6 +23,8 @@ const App = () => {
         <Route path="/publications" element={ <Publication/> } />
         <Route path="/signup" element={ <Signup/> } />
         <Route path="/financial-modeling" element={ <Financialmodeling/> } />
+        <Route path="/dsbootcamp" element={ <Dsbootcamp/> } />
+        <Route path="/upskill-kp" element={ <Upskill/> } />
       </Routes>
       
     
